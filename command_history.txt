@@ -1,0 +1,177 @@
+    1  a;lias c='clear'
+    2  c
+    3  alias c='clear'
+    4  c
+    5  ls
+    6  cd cats_and_dogs_dl/
+    7  ls
+    8  cd ../data/
+    9  ls
+   10  cd dogscats
+   11  ls -a
+   12  ls -ltra
+   13  c
+   14  ls
+   15  cd test1/
+   16  ls
+   17  c
+   18  ls
+   19  cd ..
+   20  ls
+   21  cd train/
+   22  ls
+   23  cd vali
+   24  cd ../valid/
+   25  ls
+   26  ls -1
+   27  ls -1 | wc -l
+   28  ls
+   29  cd ..
+   30  ls
+   31  c
+   32  ls
+   33  ls -1 train/cats/ | wc -l
+   34  ls -1 valid/cats/ | wc -l
+   35  cd ~
+   36  ls
+   37  cd cats_and_dogs_dl/
+   38  l
+   39  sl
+   40  sc
+   41  c
+   42  ls
+   43  git .
+   44  git add .
+   45  git push
+   46  git status
+   47  ls
+   48  git commit -a
+   49  git push
+   50  l
+   51  ls
+   52  cd ~/data/
+   53  ls
+   54  cd dogscats
+   55  ls
+   56  cd valid/
+   57  ls
+   58  ls -1 cats/ | wc -l
+   59  ls -1 dogs/ | wc -l
+   60  conda uninstall opencv
+   61  df
+   62  ps
+   63  jupyter notebook stop
+   64  jupyter notebook shutdown
+   65  ls
+   66  cd ..
+   67  cd ~
+   68  ls
+   69  cd cats_and_dogs_dl/
+   70  ls
+   71  git add -a
+   72  git add . 
+   73  git commit -m "Working model"
+   74  git push
+   75  ls -la
+   76  history | tail
+   77  ls
+   78  touch command_history.txt
+   79  history >> command_history.txt 
+    1  mkdir data
+    2  cd data
+    3  curl http://files.fast.ai/setup/paperspace
+    4  wget http://files.fast.ai/data/dogscats.zip
+    5  unzip -q dogscats.zip 
+    6  cd ..
+    7  source activate tensorflow_p36
+    8  conda install pillow
+    9  cd ~/data
+   10  ls
+   11  cd dogscats
+   12  c
+   13  ls
+   14  clear
+   15  ls
+   16  ls -ltra
+   17  ls -lktra
+   18  c
+   19  alias c='clear'
+   20  c
+   21  ls
+   22  cd models/
+   23  ls
+   24  cd sample
+   25  ls -a
+   26  ls
+   27   pip install keras-tqdm
+   28  conda uninstall PIL
+   29  pip install pillow
+   30  pip install PIL
+   31  conda install pillow
+   32  source deactivate
+   33  source activate tensorflow_p36
+   34  conda uninstall jesper
+   35  pip uninstall gesper
+   36  pip uninstalljgesper
+   37  pip uninstall jesper
+   38  pip uninstall opencv
+   39  conda install jupyer
+   40  conda install jupyter
+   41  jupyter notebook
+   42  jupyter notebook shutdown
+   43  ls
+   44  cd ..
+   45  ls
+   46  jupyter notebook
+   47  history >> ~/cats_and_dogs_dl/command_history.txt 
+    1  sudo yum update
+    2  alias c='clear'
+    3  c
+    4  ls
+    5  cd tutorials/
+    6  ls
+    7  cd ..
+    8  git clone github.com/cats_and_dogs_dl.git
+    9  git clone https://github.com/akshatjhalani/cats_and_dogs_dl.git
+   10  ls
+   11  jupyter notebook
+   12  c
+   13  cat cats_and_dogs_dl/setup.sh 
+   14  jupyter notebook --generate-config
+   15  echo "c = get_config()" >> /home/ec2-user/.jupyter/jupyter_notebook_config.py
+   16  echo "c.NotebookApp.ip = '*'" >> /home/ec2-user/.jupyter/jupyter_notebook_config.py
+   17  echo "c.NotebookApp.open_browser = False" >> /home/ec2-user/.jupyter/jupyter_notebook_config.py
+   18  echo "c.NotebookApp.notebook_dir = '/home/ec2-user'" >> /home/ec2-user/.jupyter/jupyter_notebook_config.py
+   19  echo "c.NotebookApp.port = 8888" >> /home/ec2-user/.jupyter/jupyter_notebook_config.py
+   20  echo "c.LocalAuthenticator.create_system_users = True" >> /home/ec2-user/.jupyter/jupyter_notebook_config.py
+   21  echo "c.NotebookApp.token = u''" >> /home/ec2-user/.jupyter/jupyter_notebook_config.py
+   22  jupyter notebook
+   23  jupyter notebook --generate-config
+   24  echo "c = get_config()" >> /home/ec2-user/.jupyter/jupyter_notebook_config.py
+   25  echo "c.NotebookApp.ip = '*'" >> /home/ec2-user/.jupyter/jupyter_notebook_config.py
+   26  echo "c.NotebookApp.open_browser = False" >> /home/ec2-user/.jupyter/jupyter_notebook_config.py
+   27  echo "c.NotebookApp.notebook_dir = '/home/ec2-user'" >> /home/ec2-user/.jupyter/jupyter_notebook_config.py
+   28  echo "c.NotebookApp.port = 8888" >> /home/ec2-user/.jupyter/jupyter_notebook_config.py
+   29  echo "c.LocalAuthenticator.create_system_users = True" >> /home/ec2-user/.jupyter/jupyter_notebook_config.py
+   30  echo "c.NotebookApp.token = u''" >> /home/ec2-user/.jupyter/jupyter_notebook_config.py
+   31  jupyter notebook
+   32  sudo pip install keras --upgrade
+   33  sudo pip3 install keras --upgrade
+   34  rm ~/.keras/keras.json
+   35  jupyter notebook
+   36  cd /home/ec2-user/src/
+   37  ls
+   38  conda update -n base conda
+   39  pip install --upgrade tensorflow
+   40  pip install --upgrade keras
+   41  jupyter notebook
+   42  jupyter notebook shutdown
+   43  df
+   44  source activate tensorflow_p36
+   45  pip install tensorflow-gpu
+   46  sudo pip3 list
+   47  pip3 install tensorflow-gpu
+   48  lspci|grep -i nv
+   49  sudo pip3 install tensorflow-gpu
+   50  lspci|grep -i nv
+   51  history >> ~/cats_and_dogs_dl/command_history.txt 
